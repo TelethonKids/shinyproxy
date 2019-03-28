@@ -1,7 +1,7 @@
 FROM openjdk:8-jre-alpine
 
 RUN mkdir -p /opt/shinyproxy/
-RUN wget https://www.shinyproxy.io/downloads/shinyproxy-2.1.0.jar -O /opt/shinyproxy/shinyproxy.jar
+RUN wget https://www.shinyproxy.io/downloads/shinyproxy-2.2.0.jar -O /opt/shinyproxy/shinyproxy.jar
 
 WORKDIR /opt/shinyproxy/
 
